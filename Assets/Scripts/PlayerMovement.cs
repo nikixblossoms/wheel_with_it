@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator anim;
 
     private int jumpCount = 0;
-    private int maxJumps = 3;
+    private int maxJumps = 4;
 
 
     public CollectableManager cm;
@@ -90,8 +90,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (other.gameObject.CompareTag("Collectable"))
         {
-            cm.coinCount++;
-            jump += jumpinc;
+            cm.fuelCount += 5;
+            StartCoroutine(cm.ShowFuelPopup("+5 Fuel"));
             Destroy(other.gameObject);
         }
 
