@@ -5312,9 +5312,9 @@ GameObject:
   - component: {fileID: 1656615049}
   - component: {fileID: 1656615048}
   - component: {fileID: 1656615045}
+  - component: {fileID: 1656615050}
   - component: {fileID: 1656615047}
   - component: {fileID: 1656615046}
-  - component: {fileID: 1656615050}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -5338,6 +5338,7 @@ MonoBehaviour:
   speed: 7
   jump: 20
   jumpinc: 20
+  anim: {fileID: 1656615050}
   cm: {fileID: 1927186862}
   mm: {fileID: 1807267921}
   moneyPopupText: {fileID: 1674884226}
@@ -5379,7 +5380,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.13, y: 11.408818}
+    oldSize: {x: 8.13, y: 11.428833}
     newSize: {x: 7.07, y: 6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5461,7 +5462,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -8332221236899420294, guid: 918fd8df5b595464d9287dde5237166a, type: 3}
+  m_Sprite: {fileID: -8738438260046442286, guid: 4964dd24b6cd90044b2512f33924bf13, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

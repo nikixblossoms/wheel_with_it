@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public float jump;
     public float jumpinc;
     private bool isDead = false;
+    public Animator anim;
 
     public CollectableManager cm;
     public MoneyManager mm;
@@ -34,6 +35,15 @@ public class PlayerMovement : MonoBehaviour
         if (mm.moneyCount < 0)
         {
             jump = 0;
+        }
+
+        if (move >= 0.1f || move <= -0.1f)
+        {
+            anim.SetBool("isRunning", true);
+        }
+        else
+        {
+            anim.SetBool("isRunning", false);
         }
 
         if (Input.GetButtonDown("Jump"))

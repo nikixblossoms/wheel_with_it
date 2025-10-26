@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 4964dd24b6cd90044b2512f33924bf13
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7218635265409725975
+    second: idle_wheelchair_spritesheet_ACTUAL_0
+  - first:
+      213: -1227572326046631103
+    second: idle_wheelchair_spritesheet_ACTUAL_1
+  - first:
+      213: -8738438260046442286
+    second: idle_wheelchair_spritesheet_ACTUAL_2
+  - first:
+      213: -1428581647227268195
+    second: idle_wheelchair_spritesheet_ACTUAL_3
+  - first:
+      213: 1085815812467088359
+    second: idle_wheelchair_spritesheet_ACTUAL_4
+  - first:
+      213: 4831488255157307655
+    second: idle_wheelchair_spritesheet_ACTUAL_5
+  - first:
+      213: -136575070920535049
+    second: idle_wheelchair_spritesheet_ACTUAL_6
+  - first:
+      213: -6969573099003384827
+    second: idle_wheelchair_spritesheet_ACTUAL_7
+  - first:
+      213: 2790506110250904874
+    second: idle_wheelchair_spritesheet_ACTUAL_8
+  - first:
+      213: -5678719160689043962
+    second: idle_wheelchair_spritesheet_ACTUAL_9
+  - first:
+      213: -5776438790646895859
+    second: idle_wheelchair_spritesheet_ACTUAL_10
+  - first:
+      213: 8086526524718666119
+    second: idle_wheelchair_spritesheet_ACTUAL_11
+  - first:
+      213: -707236405236884627
+    second: idle_wheelchair_spritesheet_ACTUAL_12
+  - first:
+      213: 1575257344475409908
+    second: idle_wheelchair_spritesheet_ACTUAL_13
+  - first:
+      213: -6680236991224561134
+    second: idle_wheelchair_spritesheet_ACTUAL_14
+  - first:
+      213: -7672840029975170258
+    second: idle_wheelchair_spritesheet_ACTUAL_15
+  - first:
+      213: -6968279155313283214
+    second: idle_wheelchair_spritesheet_ACTUAL_16
+  - first:
+      213: 1523275343380732004
+    second: idle_wheelchair_spritesheet_ACTUAL_17
+  - first:
+      213: -3923068006044252369
+    second: idle_wheelchair_spritesheet_ACTUAL_18
+  - first:
+      213: -5639548355953945812
+    second: idle_wheelchair_spritesheet_ACTUAL_19
+  - first:
+      213: 9142380074148773142
+    second: idle_wheelchair_spritesheet_ACTUAL_20
+  - first:
+      213: -6319944583501482461
+    second: idle_wheelchair_spritesheet_ACTUAL_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_0
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 74
+        width: 813
+        height: 1140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716bad5278ebd2460800000000000000
+      internalID: 7218635265409725975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_1
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 76
+        width: 813
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bf3e13979c6fee0800000000000000
+      internalID: -1227572326046631103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_2
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 76
+        width: 813
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0df3263b4dab680800000000000000
+      internalID: -8738438260046442286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_3
+      rect:
+        serializedVersion: 2
+        x: 3839
+        y: 72
+        width: 813
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9350609f88ac2ce0800000000000000
+      internalID: -1428581647227268195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_4
+      rect:
+        serializedVersion: 2
+        x: 5052
+        y: 76
+        width: 813
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb5a918ab7911f00800000000000000
+      internalID: 1085815812467088359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_5
+      rect:
+        serializedVersion: 2
+        x: 6265
+        y: 72
+        width: 813
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7098f1148f4ec0340800000000000000
+      internalID: 4831488255157307655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_6
+      rect:
+        serializedVersion: 2
+        x: 7478
+        y: 76
+        width: 813
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f39b9452b9ca1ef0800000000000000
+      internalID: -136575070920535049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_7
+      rect:
+        serializedVersion: 2
+        x: 8691
+        y: 72
+        width: 813
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ce8cd513a174f90800000000000000
+      internalID: -6969573099003384827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_8
+      rect:
+        serializedVersion: 2
+        x: 9904
+        y: 76
+        width: 813
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2def05c58ed9b620800000000000000
+      internalID: 2790506110250904874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_9
+      rect:
+        serializedVersion: 2
+        x: 11117
+        y: 72
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606dcefa2032131b0800000000000000
+      internalID: -5678719160689043962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_10
+      rect:
+        serializedVersion: 2
+        x: 12330
+        y: 72
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b64b85687f5dfa0800000000000000
+      internalID: -5776438790646895859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_11
+      rect:
+        serializedVersion: 2
+        x: 13543
+        y: 77
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78151aca70d193070800000000000000
+      internalID: 8086526524718666119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_12
+      rect:
+        serializedVersion: 2
+        x: 14756
+        y: 77
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b91ad8c346f26f0800000000000000
+      internalID: -707236405236884627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_13
+      rect:
+        serializedVersion: 2
+        x: 15969
+        y: 77
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd284f65307cd510800000000000000
+      internalID: 1575257344475409908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_14
+      rect:
+        serializedVersion: 2
+        x: 17182
+        y: 72
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212c2a299d70b43a0800000000000000
+      internalID: -6680236991224561134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_15
+      rect:
+        serializedVersion: 2
+        x: 18395
+        y: 72
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23beea25a8948590800000000000000
+      internalID: -7672840029975170258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_16
+      rect:
+        serializedVersion: 2
+        x: 19608
+        y: 72
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27feacb1703bb4f90800000000000000
+      internalID: -6968279155313283214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_17
+      rect:
+        serializedVersion: 2
+        x: 20821
+        y: 72
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468d159aad2c32510800000000000000
+      internalID: 1523275343380732004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_18
+      rect:
+        serializedVersion: 2
+        x: 22034
+        y: 72
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27480e0f667e89c0800000000000000
+      internalID: -3923068006044252369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_19
+      rect:
+        serializedVersion: 2
+        x: 23247
+        y: 72
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c231abd56ac4cb1b0800000000000000
+      internalID: -5639548355953945812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_20
+      rect:
+        serializedVersion: 2
+        x: 24460
+        y: 72
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d3f313d3240ee70800000000000000
+      internalID: 9142380074148773142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_wheelchair_spritesheet_ACTUAL_21
+      rect:
+        serializedVersion: 2
+        x: 25673
+        y: 76
+        width: 813
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3267d34c2eb0b48a0800000000000000
+      internalID: -6319944583501482461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      idle_wheelchair_spritesheet_ACTUAL_0: 7218635265409725975
+      idle_wheelchair_spritesheet_ACTUAL_1: -1227572326046631103
+      idle_wheelchair_spritesheet_ACTUAL_10: -5776438790646895859
+      idle_wheelchair_spritesheet_ACTUAL_11: 8086526524718666119
+      idle_wheelchair_spritesheet_ACTUAL_12: -707236405236884627
+      idle_wheelchair_spritesheet_ACTUAL_13: 1575257344475409908
+      idle_wheelchair_spritesheet_ACTUAL_14: -6680236991224561134
+      idle_wheelchair_spritesheet_ACTUAL_15: -7672840029975170258
+      idle_wheelchair_spritesheet_ACTUAL_16: -6968279155313283214
+      idle_wheelchair_spritesheet_ACTUAL_17: 1523275343380732004
+      idle_wheelchair_spritesheet_ACTUAL_18: -3923068006044252369
+      idle_wheelchair_spritesheet_ACTUAL_19: -5639548355953945812
+      idle_wheelchair_spritesheet_ACTUAL_2: -8738438260046442286
+      idle_wheelchair_spritesheet_ACTUAL_20: 9142380074148773142
+      idle_wheelchair_spritesheet_ACTUAL_21: -6319944583501482461
+      idle_wheelchair_spritesheet_ACTUAL_3: -1428581647227268195
+      idle_wheelchair_spritesheet_ACTUAL_4: 1085815812467088359
+      idle_wheelchair_spritesheet_ACTUAL_5: 4831488255157307655
+      idle_wheelchair_spritesheet_ACTUAL_6: -136575070920535049
+      idle_wheelchair_spritesheet_ACTUAL_7: -6969573099003384827
+      idle_wheelchair_spritesheet_ACTUAL_8: 2790506110250904874
+      idle_wheelchair_spritesheet_ACTUAL_9: -5678719160689043962
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
