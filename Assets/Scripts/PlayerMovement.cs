@@ -18,17 +18,26 @@ public class PlayerMovement : MonoBehaviour
 
     public CollectableManager cm;
     public MoneyManager mm;
+    public StartMenu sm; // Reference to StartMenu
 
-    public Text moneyPopupText; //  Add this reference
+    public Text moneyPopupText;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        moneyPopupText.gameObject.SetActive(false); // Hide initially
+        moneyPopupText.gameObject.SetActive(false);
     }
 
     void Update()
     {
+        // Prevent movement if start menu is still active
+        if (sm != null && sm.startMenuPanel.activeSelf)
+        {
+            rb.linearVelocity = Vector2.zero;
+            anim.SetBool("isRunning", false);
+            return;
+        }
+
         move = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
 
@@ -37,14 +46,7 @@ public class PlayerMovement : MonoBehaviour
             jump = 0;
         }
 
-        if (move >= 0.1f || move <= -0.1f)
-        {
-            anim.SetBool("isRunning", true);
-        }
-        else
-        {
-            anim.SetBool("isRunning", false);
-        }
+        anim.SetBool("isRunning", Mathf.Abs(move) > 0.1f);
 
         if (Input.GetButtonDown("Jump"))
         {
@@ -64,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
         {
             mm.moneyCount += 10;
             Destroy(other.gameObject);
-            StartCoroutine(ShowMoneyPopup("+$10")); // Show popup
+            StartCoroutine(ShowMoneyPopup("+$10"));
         }
 
         if (other.gameObject.CompareTag("Collectable"))
@@ -84,7 +86,7 @@ public class PlayerMovement : MonoBehaviour
     {
         moneyPopupText.text = message;
         moneyPopupText.gameObject.SetActive(true);
-        yield return new WaitForSeconds(1f); // Show for 1 second
+        yield return new WaitForSeconds(1f);
         moneyPopupText.gameObject.SetActive(false);
     }
 

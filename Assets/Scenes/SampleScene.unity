@@ -5440,6 +5440,7 @@ MonoBehaviour:
   anim: {fileID: 1656615050}
   cm: {fileID: 1927186862}
   mm: {fileID: 1807267921}
+  sm: {fileID: 586730429}
   moneyPopupText: {fileID: 1674884226}
 --- !u!61 &1656615046
 BoxCollider2D:
@@ -6446,6 +6447,7 @@ MonoBehaviour:
   moneyCount: 0
   moneyText: {fileID: 1802003494}
   moneyLossPopup: {fileID: 404683363}
+  sm: {fileID: 586730429}
 --- !u!4 &1807267922
 Transform:
   m_ObjectHideFlags: 0
