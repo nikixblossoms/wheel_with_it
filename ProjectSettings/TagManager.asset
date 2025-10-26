@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Collectable
+  - Hazard
+  - Money
   layers:
   - Default
   - TransparentFX

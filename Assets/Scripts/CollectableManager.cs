@@ -14,6 +14,6 @@ public class CollectableManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        coinText.text = ": " + coinCount.ToString();
+        // coinText.text = ": " + coinCount.ToString();
     }
 }

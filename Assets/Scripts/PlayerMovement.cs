@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -12,36 +14,49 @@ public class PlayerMovement : MonoBehaviour
     public float jump;
     public float jumpinc;
     private bool isDead = false;
-    
+
     public CollectableManager cm;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public MoneyManager mm;
+
+    public Text moneyPopupText; // 👈 Add this reference
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        moneyPopupText.gameObject.SetActive(false); // Hide initially
     }
 
-    // Update is called once per frame
     void Update()
     {
         move = Input.GetAxis("Horizontal");
-        
         rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
+
+        if (mm.moneyCount < 0)
+        {
+            jump = 0;
+        }
 
         if (Input.GetButtonDown("Jump"))
         {
             rb.AddForce(new Vector2(rb.linearVelocity.x, jump * 10));
         }
-        
+
         if (isDead && Input.GetKeyDown(KeyCode.R))
         {
             Time.timeScale = 1f;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.gameObject.CompareTag("Money"))
+        {
+            mm.moneyCount += 10;
+            Destroy(other.gameObject);
+            StartCoroutine(ShowMoneyPopup("+$10")); // 👈 Show popup
+        }
+
         if (other.gameObject.CompareTag("Collectable"))
         {
             cm.coinCount++;
@@ -54,12 +69,19 @@ public class PlayerMovement : MonoBehaviour
             Die();
         }
     }
-    
-     public void Die()
+
+    IEnumerator ShowMoneyPopup(string message)
     {
-        Time.timeScale = 0f; // Pause the game
+        moneyPopupText.text = message;
+        moneyPopupText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(1f); // Show for 1 second
+        moneyPopupText.gameObject.SetActive(false);
+    }
+
+    public void Die()
+    {
+        Time.timeScale = 0f;
         gameOver.SetActive(true);
         isDead = true;
-        
     }
 }
