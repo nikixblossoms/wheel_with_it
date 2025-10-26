@@ -788,7 +788,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 501, y: -131}
+  m_AnchoredPosition: {x: 106, y: -95}
   m_SizeDelta: {x: 505.1495, y: 223.9241}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &110536903
@@ -828,10 +828,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 61
+    m_FontSize: 30
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 149
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1028,12 +1028,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142443574}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.5614, y: -2.14146, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -191.51419, y: -639.0834, z: 0}
+  m_LocalScale: {x: 1.850584, y: 1.850584, z: 1.850584}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 671383196}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &176567387
 GameObject:
@@ -1480,7 +1480,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -3.5, y: -6}
   m_SizeDelta: {x: 462.3236, y: 122.9439}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &347459832
@@ -1505,15 +1505,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Game Over
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 022a8cb3e94dfad488428de8af64428c, type: 2}
+  m_sharedMaterial: {fileID: 2254115885089816887, guid: 022a8cb3e94dfad488428de8af64428c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278584840
-  m_fontColor: {r: 0.033018887, g: 0.023829669, b: 0.023829669, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1609,15 +1609,15 @@ RectTransform:
   m_GameObject: {fileID: 423983561}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.57573, y: 0.57573, z: 0.57573}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1946282869}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -307.15472, y: 174.62604}
-  m_SizeDelta: {x: 52.1548, y: 27.8756}
+  m_AnchoredPosition: {x: -302, y: 166.6}
+  m_SizeDelta: {x: 134.4642, y: 65.3383}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &423983563
 MonoBehaviour:
@@ -2171,7 +2171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StartMenu
   startMenuPanel: {fileID: 1574910705}
-  MoneyCanvas: {fileID: 0}
+  MoneyCanvas: {fileID: 1946282865}
 --- !u!114 &586730430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2653,7 +2653,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.54037, y: 0.54037, z: 0.54037}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 142443576}
   m_Father: {fileID: 1574910709}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -4102,7 +4103,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -65.03}
+  m_AnchoredPosition: {x: 0.5, y: -37}
   m_SizeDelta: {x: 442.7534, y: 130.0604}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1244340159
@@ -4127,15 +4128,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Press R to restart
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 022a8cb3e94dfad488428de8af64428c, type: 2}
+  m_sharedMaterial: {fileID: 2254115885089816887, guid: 022a8cb3e94dfad488428de8af64428c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278387460
-  m_fontColor: {r: 0.0141509175, g: 0.0124821775, b: 0.0124821775, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4152,8 +4153,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45.3
-  m_fontSizeBase: 45.3
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5414,7 +5415,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 132.5747, y: -382.96207}
+  m_AnchoredPosition: {x: 25, y: -93}
   m_SizeDelta: {x: 505.1495, y: 223.9241}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1674884226
@@ -5543,7 +5544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9764151, g: 0.9764151, b: 0.9764151, a: 0.54509807}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.92156863}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5595,15 +5596,15 @@ RectTransform:
   m_GameObject: {fileID: 1802003492}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.57573, y: 0.57573, z: 0.57573}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1946282869}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -139.67822, y: 174.62604}
-  m_SizeDelta: {x: 272.7224, y: 36.6479}
+  m_AnchoredPosition: {x: -51.6, y: 168.2}
+  m_SizeDelta: {x: 703.1266, y: 85.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1802003494
 MonoBehaviour:
@@ -6064,7 +6065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MoneyManager
   moneyCount: 0
   moneyText: {fileID: 1802003494}
-  moneyLossPopup: {fileID: 1674884226}
+  moneyLossPopup: {fileID: 0}
   sm: {fileID: 586730429}
 --- !u!4 &1807267922
 Transform:
@@ -7358,4 +7359,3 @@ SceneRoots:
   - {fileID: 2108343602}
   - {fileID: 1946282869}
   - {fileID: 1574910709}
-  - {fileID: 142443576}
