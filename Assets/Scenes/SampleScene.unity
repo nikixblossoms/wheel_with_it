@@ -5435,7 +5435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   gameOver: {fileID: 1655548837}
   speed: 7
-  jump: 20
+  jump: 40
   jumpinc: 20
   anim: {fileID: 1656615050}
   cm: {fileID: 1927186862}
@@ -5503,7 +5503,7 @@ Rigidbody2D:
   m_Mass: 2
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -5513,7 +5513,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!212 &1656615048
 SpriteRenderer:
