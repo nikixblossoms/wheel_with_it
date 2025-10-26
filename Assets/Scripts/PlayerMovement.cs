@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator anim;
 
     private int jumpCount = 0;
-    private int maxJumps = 4;
+    private int maxJumps = 100;
 
 
     public CollectableManager cm;

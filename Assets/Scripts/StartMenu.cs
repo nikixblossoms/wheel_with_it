@@ -4,9 +4,11 @@ using UnityEngine.SceneManagement;
 public class StartMenu : MonoBehaviour
 {
     public GameObject startMenuPanel;
+    public GameObject MoneyCanvas;
 
     public void StartGame()
     {
         startMenuPanel.SetActive(false);
+        MoneyCanvas.SetActive(true);
     }
 }
