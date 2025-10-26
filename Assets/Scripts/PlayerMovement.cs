@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     public CollectableManager cm;
     public MoneyManager mm;
 
-    public Text moneyPopupText; // 👈 Add this reference
+    public Text moneyPopupText; //  Add this reference
 
     void Start()
     {
@@ -54,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
         {
             mm.moneyCount += 10;
             Destroy(other.gameObject);
-            StartCoroutine(ShowMoneyPopup("+$10")); // 👈 Show popup
+            StartCoroutine(ShowMoneyPopup("+$10")); // Show popup
         }
 
         if (other.gameObject.CompareTag("Collectable"))
