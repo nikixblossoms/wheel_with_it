@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 918fd8df5b595464d9287dde5237166a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8332221236899420294
+    second: rolling_wheelchair_spritesheet_ACTUAL_0
+  - first:
+      213: -1049074387788282988
+    second: rolling_wheelchair_spritesheet_ACTUAL_1
+  - first:
+      213: 5937033349715433468
+    second: rolling_wheelchair_spritesheet_ACTUAL_2
+  - first:
+      213: -263316371187914092
+    second: rolling_wheelchair_spritesheet_ACTUAL_3
+  - first:
+      213: -6691564520473380400
+    second: rolling_wheelchair_spritesheet_ACTUAL_4
+  - first:
+      213: -4024975616619521630
+    second: rolling_wheelchair_spritesheet_ACTUAL_5
+  - first:
+      213: 2059283720983573153
+    second: rolling_wheelchair_spritesheet_ACTUAL_6
+  - first:
+      213: 5398080429041303445
+    second: rolling_wheelchair_spritesheet_ACTUAL_7
+  - first:
+      213: -6245597837799350374
+    second: rolling_wheelchair_spritesheet_ACTUAL_8
+  - first:
+      213: 7085216758967404462
+    second: rolling_wheelchair_spritesheet_ACTUAL_9
+  - first:
+      213: -2156763475986084080
+    second: rolling_wheelchair_spritesheet_ACTUAL_10
+  - first:
+      213: -4538188392785007198
+    second: rolling_wheelchair_spritesheet_ACTUAL_11
+  - first:
+      213: 3121924095523816831
+    second: rolling_wheelchair_spritesheet_ACTUAL_12
+  - first:
+      213: 7710238614615155211
+    second: rolling_wheelchair_spritesheet_ACTUAL_13
+  - first:
+      213: -2425191706153761573
+    second: rolling_wheelchair_spritesheet_ACTUAL_14
+  - first:
+      213: 8070273523787440204
+    second: rolling_wheelchair_spritesheet_ACTUAL_15
+  - first:
+      213: -9070463018957848370
+    second: rolling_wheelchair_spritesheet_ACTUAL_16
+  - first:
+      213: -6419515781437595335
+    second: rolling_wheelchair_spritesheet_ACTUAL_17
+  - first:
+      213: 2349305860187039626
+    second: rolling_wheelchair_spritesheet_ACTUAL_18
+  - first:
+      213: -2606408133066210933
+    second: rolling_wheelchair_spritesheet_ACTUAL_19
+  - first:
+      213: -5559780114712744962
+    second: rolling_wheelchair_spritesheet_ACTUAL_20
+  - first:
+      213: 4930515633261751246
+    second: rolling_wheelchair_spritesheet_ACTUAL_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_0
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 74
+        width: 813
+        height: 1140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77e4a85ee00e5c80800000000000000
+      internalID: -8332221236899420294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_1
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 73
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4934bec0760f071f0800000000000000
+      internalID: -1049074387788282988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_2
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 78
+        width: 813
+        height: 1138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf79f653064946250800000000000000
+      internalID: 5937033349715433468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_3
+      rect:
+        serializedVersion: 2
+        x: 3839
+        y: 76
+        width: 813
+        height: 1136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49aaccfc723885cf0800000000000000
+      internalID: -263316371187914092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_4
+      rect:
+        serializedVersion: 2
+        x: 5052
+        y: 79
+        width: 813
+        height: 1134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9b395a589c223a0800000000000000
+      internalID: -6691564520473380400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_5
+      rect:
+        serializedVersion: 2
+        x: 6265
+        y: 76
+        width: 813
+        height: 1132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9d8cd700a6428c0800000000000000
+      internalID: -4024975616619521630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_6
+      rect:
+        serializedVersion: 2
+        x: 7478
+        y: 81
+        width: 813
+        height: 1133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a278f832ab049c10800000000000000
+      internalID: 2059283720983573153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_7
+      rect:
+        serializedVersion: 2
+        x: 8691
+        y: 76
+        width: 813
+        height: 1132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fbef9cc85d9ea40800000000000000
+      internalID: 5398080429041303445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_8
+      rect:
+        serializedVersion: 2
+        x: 9904
+        y: 74
+        width: 813
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f950c6bdd2359a0800000000000000
+      internalID: -6245597837799350374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_9
+      rect:
+        serializedVersion: 2
+        x: 11117
+        y: 81
+        width: 813
+        height: 1147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea785ea6a1fb35260800000000000000
+      internalID: 7085216758967404462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_10
+      rect:
+        serializedVersion: 2
+        x: 12330
+        y: 83
+        width: 813
+        height: 1144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f005dab03a112e0800000000000000
+      internalID: -2156763475986084080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_11
+      rect:
+        serializedVersion: 2
+        x: 13543
+        y: 79
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adaf3c73bd1501c0800000000000000
+      internalID: -4538188392785007198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_12
+      rect:
+        serializedVersion: 2
+        x: 14756
+        y: 83
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f750e699c6d435b20800000000000000
+      internalID: 3121924095523816831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_13
+      rect:
+        serializedVersion: 2
+        x: 15969
+        y: 74
+        width: 814
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02e2ad5b25400b60800000000000000
+      internalID: 7710238614615155211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_14
+      rect:
+        serializedVersion: 2
+        x: 17183
+        y: 78
+        width: 814
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd44b721efcf75ed0800000000000000
+      internalID: -2425191706153761573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_15
+      rect:
+        serializedVersion: 2
+        x: 18395
+        y: 74
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c402791030f5fff60800000000000000
+      internalID: 8070273523787440204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_16
+      rect:
+        serializedVersion: 2
+        x: 19608
+        y: 76
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec043be01fd3f1280800000000000000
+      internalID: -9070463018957848370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_17
+      rect:
+        serializedVersion: 2
+        x: 20821
+        y: 81
+        width: 814
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931e569a86c49e6a0800000000000000
+      internalID: -6419515781437595335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_18
+      rect:
+        serializedVersion: 2
+        x: 22036
+        y: 73
+        width: 814
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8721319b396a9020800000000000000
+      internalID: 2349305860187039626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_19
+      rect:
+        serializedVersion: 2
+        x: 23255
+        y: 83
+        width: 814
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8146e0cc9d24dbd0800000000000000
+      internalID: -2606408133066210933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_20
+      rect:
+        serializedVersion: 2
+        x: 24475
+        y: 87
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb24415171b7d2b0800000000000000
+      internalID: -5559780114712744962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheelchair_spritesheet_ACTUAL_21
+      rect:
+        serializedVersion: 2
+        x: 25688
+        y: 87
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecba31078d5bc6440800000000000000
+      internalID: 4930515633261751246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rolling_wheelchair_spritesheet_ACTUAL_0: -8332221236899420294
+      rolling_wheelchair_spritesheet_ACTUAL_1: -1049074387788282988
+      rolling_wheelchair_spritesheet_ACTUAL_10: -2156763475986084080
+      rolling_wheelchair_spritesheet_ACTUAL_11: -4538188392785007198
+      rolling_wheelchair_spritesheet_ACTUAL_12: 3121924095523816831
+      rolling_wheelchair_spritesheet_ACTUAL_13: 7710238614615155211
+      rolling_wheelchair_spritesheet_ACTUAL_14: -2425191706153761573
+      rolling_wheelchair_spritesheet_ACTUAL_15: 8070273523787440204
+      rolling_wheelchair_spritesheet_ACTUAL_16: -9070463018957848370
+      rolling_wheelchair_spritesheet_ACTUAL_17: -6419515781437595335
+      rolling_wheelchair_spritesheet_ACTUAL_18: 2349305860187039626
+      rolling_wheelchair_spritesheet_ACTUAL_19: -2606408133066210933
+      rolling_wheelchair_spritesheet_ACTUAL_2: 5937033349715433468
+      rolling_wheelchair_spritesheet_ACTUAL_20: -5559780114712744962
+      rolling_wheelchair_spritesheet_ACTUAL_21: 4930515633261751246
+      rolling_wheelchair_spritesheet_ACTUAL_3: -263316371187914092
+      rolling_wheelchair_spritesheet_ACTUAL_4: -6691564520473380400
+      rolling_wheelchair_spritesheet_ACTUAL_5: -4024975616619521630
+      rolling_wheelchair_spritesheet_ACTUAL_6: 2059283720983573153
+      rolling_wheelchair_spritesheet_ACTUAL_7: 5398080429041303445
+      rolling_wheelchair_spritesheet_ACTUAL_8: -6245597837799350374
+      rolling_wheelchair_spritesheet_ACTUAL_9: 7085216758967404462
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
