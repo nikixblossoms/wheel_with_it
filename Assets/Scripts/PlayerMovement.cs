@@ -16,6 +16,10 @@ public class PlayerMovement : MonoBehaviour
     private bool isDead = false;
     public Animator anim;
 
+    private int jumpCount = 0;
+    private int maxJumps = 3;
+
+
     public CollectableManager cm;
     public MoneyManager mm;
     public StartMenu sm; // Reference to StartMenu
@@ -48,9 +52,12 @@ public class PlayerMovement : MonoBehaviour
 
         anim.SetBool("isRunning", Mathf.Abs(move) > 0.1f);
 
-        if (Input.GetButtonDown("Jump"))
+
+        if (Input.GetButtonDown("Jump") && jumpCount < maxJumps)
         {
             rb.AddForce(new Vector2(rb.linearVelocity.x, jump * 10));
+            jumpCount++;
+            
         }
 
         if (isDead && Input.GetKeyDown(KeyCode.R))
@@ -58,6 +65,18 @@ public class PlayerMovement : MonoBehaviour
             Time.timeScale = 1f;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+
+        // Smoothly reset rotation to zero if the player is tilted/flipped
+        if (Mathf.Abs(transform.rotation.eulerAngles.z) > 1f)
+        {
+            float currentZ = transform.rotation.eulerAngles.z;
+            float targetZ = 0f;
+            float smoothSpeed = 5f;
+
+            Quaternion targetRotation = Quaternion.Euler(0f, 0f, Mathf.LerpAngle(currentZ, targetZ, Time.deltaTime * smoothSpeed));
+            transform.rotation = targetRotation;
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -76,11 +95,21 @@ public class PlayerMovement : MonoBehaviour
             Destroy(other.gameObject);
         }
 
+
         if (other.gameObject.CompareTag("Hazard"))
         {
             Die();
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            jumpCount = 0;
+        }
+    }
+
 
     IEnumerator ShowMoneyPopup(string message)
     {
