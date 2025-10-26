@@ -31,10 +31,10 @@ public class PlayerMovement : MonoBehaviour
         move = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
 
-        if (mm.moneyCount < 0)
-        {
-            jump = 0;
-        }
+        // if (mm.moneyCount < 0)
+        // {
+        //     jump = 0;
+        // }
 
         if (Input.GetButtonDown("Jump"))
         {

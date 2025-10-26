@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 52dc6a732b845f541801fa26904e4752
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5132997314984164798
+    second: rolling_wheel_0
+  - first:
+      213: -194847551166604753
+    second: rolling_wheel_1
+  - first:
+      213: -5037792813513705074
+    second: rolling_wheel_2
+  - first:
+      213: -8078379495471622094
+    second: rolling_wheel_3
+  - first:
+      213: 7472468965016387433
+    second: rolling_wheel_4
+  - first:
+      213: 4332202627743077413
+    second: rolling_wheel_5
+  - first:
+      213: -5972217737363272086
+    second: rolling_wheel_6
+  - first:
+      213: -708000752090700428
+    second: rolling_wheel_7
+  - first:
+      213: -7841061680471549906
+    second: rolling_wheel_8
+  - first:
+      213: 9125876703087267616
+    second: rolling_wheel_9
+  - first:
+      213: 6577444895659045476
+    second: rolling_wheel_10
+  - first:
+      213: -2987304542142496152
+    second: rolling_wheel_11
+  - first:
+      213: 7032088936732786921
+    second: rolling_wheel_12
+  - first:
+      213: -7895307362524617359
+    second: rolling_wheel_13
+  - first:
+      213: -318573780928570030
+    second: rolling_wheel_14
+  - first:
+      213: -6003274688162853500
+    second: rolling_wheel_15
+  - first:
+      213: 3490072578008785740
+    second: rolling_wheel_16
+  - first:
+      213: -9105894330438734282
+    second: rolling_wheel_17
+  - first:
+      213: 5308348610753646095
+    second: rolling_wheel_18
+  - first:
+      213: -110033195839623655
+    second: rolling_wheel_19
+  - first:
+      213: 1857840199830550292
+    second: rolling_wheel_20
+  - first:
+      213: -7404732559876163928
+    second: rolling_wheel_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rolling_wheel_0
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 74
+        width: 813
+        height: 1140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd3aa8bcd11c3740800000000000000
+      internalID: 5132997314984164798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_1
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 73
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a1c5f3f23cb4df0800000000000000
+      internalID: -194847551166604753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_2
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 78
+        width: 813
+        height: 1138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89ff72a02a261ab0800000000000000
+      internalID: -5037792813513705074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_3
+      rect:
+        serializedVersion: 2
+        x: 3839
+        y: 76
+        width: 813
+        height: 1136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2385d9366a4d3ef80800000000000000
+      internalID: -8078379495471622094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_4
+      rect:
+        serializedVersion: 2
+        x: 5052
+        y: 79
+        width: 813
+        height: 1134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fbeeeceea83b760800000000000000
+      internalID: 7472468965016387433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_5
+      rect:
+        serializedVersion: 2
+        x: 6265
+        y: 76
+        width: 813
+        height: 1132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524d3a146531f1c30800000000000000
+      internalID: 4332202627743077413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_6
+      rect:
+        serializedVersion: 2
+        x: 7478
+        y: 81
+        width: 813
+        height: 1133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ecc2b2c9b6e1da0800000000000000
+      internalID: -5972217737363272086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_7
+      rect:
+        serializedVersion: 2
+        x: 8691
+        y: 76
+        width: 813
+        height: 1132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475acee211dac26f0800000000000000
+      internalID: -708000752090700428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_8
+      rect:
+        serializedVersion: 2
+        x: 9904
+        y: 74
+        width: 813
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28d09102f3fe2390800000000000000
+      internalID: -7841061680471549906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_9
+      rect:
+        serializedVersion: 2
+        x: 11117
+        y: 81
+        width: 813
+        height: 1147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f878fa280a5ae70800000000000000
+      internalID: 9125876703087267616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_10
+      rect:
+        serializedVersion: 2
+        x: 12330
+        y: 83
+        width: 813
+        height: 1144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462b677a847c74b50800000000000000
+      internalID: 6577444895659045476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_11
+      rect:
+        serializedVersion: 2
+        x: 13543
+        y: 79
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8628fa9a856fa86d0800000000000000
+      internalID: -2987304542142496152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_12
+      rect:
+        serializedVersion: 2
+        x: 14756
+        y: 83
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e089ee51aff69160800000000000000
+      internalID: 7032088936732786921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_13
+      rect:
+        serializedVersion: 2
+        x: 15969
+        y: 74
+        width: 814
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175a130f8cb3e6290800000000000000
+      internalID: -7895307362524617359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_14
+      rect:
+        serializedVersion: 2
+        x: 17183
+        y: 78
+        width: 814
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ddff885d2349bf0800000000000000
+      internalID: -318573780928570030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_15
+      rect:
+        serializedVersion: 2
+        x: 18395
+        y: 74
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d85f25a7510bca0800000000000000
+      internalID: -6003274688162853500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_16
+      rect:
+        serializedVersion: 2
+        x: 19608
+        y: 76
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43ab8cb48a3f6030800000000000000
+      internalID: 3490072578008785740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_17
+      rect:
+        serializedVersion: 2
+        x: 20821
+        y: 81
+        width: 814
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ea4fff95d51a180800000000000000
+      internalID: -9105894330438734282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_18
+      rect:
+        serializedVersion: 2
+        x: 22036
+        y: 73
+        width: 814
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ec8e7cfea0ba940800000000000000
+      internalID: 5308348610753646095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_19
+      rect:
+        serializedVersion: 2
+        x: 23255
+        y: 83
+        width: 814
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e6a703465197ef0800000000000000
+      internalID: -110033195839623655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_20
+      rect:
+        serializedVersion: 2
+        x: 24475
+        y: 87
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417375881df58c910800000000000000
+      internalID: 1857840199830550292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rolling_wheel_21
+      rect:
+        serializedVersion: 2
+        x: 25688
+        y: 87
+        width: 813
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6ffcff7fa1d3990800000000000000
+      internalID: -7404732559876163928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rolling_wheel_0: 5132997314984164798
+      rolling_wheel_1: -194847551166604753
+      rolling_wheel_10: 6577444895659045476
+      rolling_wheel_11: -2987304542142496152
+      rolling_wheel_12: 7032088936732786921
+      rolling_wheel_13: -7895307362524617359
+      rolling_wheel_14: -318573780928570030
+      rolling_wheel_15: -6003274688162853500
+      rolling_wheel_16: 3490072578008785740
+      rolling_wheel_17: -9105894330438734282
+      rolling_wheel_18: 5308348610753646095
+      rolling_wheel_19: -110033195839623655
+      rolling_wheel_2: -5037792813513705074
+      rolling_wheel_20: 1857840199830550292
+      rolling_wheel_21: -7404732559876163928
+      rolling_wheel_3: -8078379495471622094
+      rolling_wheel_4: 7472468965016387433
+      rolling_wheel_5: 4332202627743077413
+      rolling_wheel_6: -5972217737363272086
+      rolling_wheel_7: -708000752090700428
+      rolling_wheel_8: -7841061680471549906
+      rolling_wheel_9: 9125876703087267616
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
