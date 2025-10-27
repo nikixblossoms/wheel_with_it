@@ -48,7 +48,8 @@ public class ObstacleManager : MonoBehaviour
     void SpawnSegment(float xPos) {
         float roll = Random.value; // 0.0 to 1.0
 
-        if (roll < 0.4f){
+        if (roll < 0.4f)
+        {
             // 40% chance
             float subroll = Random.value;
             if (roll < 0.3f)
@@ -64,59 +65,69 @@ public class ObstacleManager : MonoBehaviour
             {
                 Instantiate(ground_money, new Vector2(xPos + 1f, positiongroundY), Quaternion.identity);
 
-            }        
-        } else if (roll < 0.70f) {
-            // 30% chance
-            float subroll = Random.value;
-            if (roll < 0.3f)
+            }
+        }
+        else
+        {
+            if (roll < 0.70f)
             {
-                Instantiate(pit, new Vector2(xPos - 1f, positionpitY), Quaternion.identity);
+                // 30% chance
+                float subroll = Random.value;
+                if (roll < 0.3f)
+                {
+                    Instantiate(pit, new Vector2(xPos - 1f, positionpitY), Quaternion.identity);
+                }
+                else if (roll < 0.6f)
+                {
+                    Instantiate(pit_fuel, new Vector2(xPos - 1f, positionpitY), Quaternion.identity);
+                }
+                else
+                {
+                    Instantiate(pit_money, new Vector2(xPos - 1f, positionpitY), Quaternion.identity);
+
+                }
 
             }
-            else if (roll < 0.6f)
+            else if (roll < 0.85f)
             {
-                Instantiate(pit_fuel, new Vector2(xPos - 1f, positionpitY), Quaternion.identity);
+                // 15% chance
+                float subroll = Random.value;
+                if (roll < 0.3f)
+                {
+                    Instantiate(obstacle, new Vector2(xPos + 1f, positiongroundY), Quaternion.identity);
+
+                }
+                else if (roll < 0.6f)
+                {
+                    Instantiate(obstacle_fuel, new Vector2(xPos + 1f, positiongroundY), Quaternion.identity);
+                }
+                else
+                {
+                    Instantiate(obstacle_money, new Vector2(xPos + 1f, positiongroundY), Quaternion.identity);
+
+                }
             }
             else
             {
-                Instantiate(pit_money, new Vector2(xPos - 1f, positionpitY), Quaternion.identity);
+                // 15% chance
+                float subroll = Random.value;
+                if (roll < 0.3f)
+                {
+                    Instantiate(stairs, new Vector2(xPos + 1f, positiongroundY), Quaternion.identity);
 
-            }
+                }
+                else if (roll < 0.6f)
+                {
+                    Instantiate(stairs_fuel, new Vector2(xPos + 1f, positiongroundY), Quaternion.identity);
+                }
+                else
+                {
+                    Instantiate(stairs_money, new Vector2(xPos + 1f, positiongroundY), Quaternion.identity);
 
-        } else if (roll < 0.85f) {
-            // 15% chance
-            float subroll = Random.value;
-            if (roll < 0.3f)
-            {
-                Instantiate(obstacle, new Vector2(xPos + 1f, positiongroundY), Quaternion.identity);
-
+                }
             }
-            else if (roll < 0.6f)
-            {
-                Instantiate(obstacle_fuel, new Vector2(xPos + 1f, positiongroundY), Quaternion.identity);
-            }
-            else
-            {
-                Instantiate(obstacle_money, new Vector2(xPos + 1f, positiongroundY), Quaternion.identity);
-
-            }
-        } else {  
-            // 15% chance
-            float subroll = Random.value;
-            if (roll < 0.3f)
-            {
-                Instantiate(stairs, new Vector2(xPos + 1f, positiongroundY), Quaternion.identity);
-
-            }
-            else if (roll < 0.6f)
-            {
-                Instantiate(stairs_fuel, new Vector2(xPos + 1f, positiongroundY), Quaternion.identity);
-            }
-            else
-            {
-                Instantiate(stairs_money, new Vector2(xPos + 1f, positiongroundY), Quaternion.identity);
-
-            }        
+            Instantiate(ground, new Vector2(xPos + segmentWidth + 1f, positiongroundY), Quaternion.identity);
+            nextSpawnX += segmentWidth;
         }
     }
 }
