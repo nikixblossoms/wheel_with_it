@@ -3276,7 +3276,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &761669096
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3292,7 +3292,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -5480,6 +5480,15 @@ MonoBehaviour:
   pit: {fileID: 8653190612220932442, guid: 8eb9904d771b02e45a8325ae45f40d7d, type: 3}
   ground: {fileID: 6476199732091025088, guid: dbe92576a42f6cd43b40d5e867ee12d5, type: 3}
   obstacle: {fileID: 1658803989062484501, guid: 2b43eb76cfec69549b0971f180fa337f, type: 3}
+  stairs: {fileID: 6332064908483682720, guid: f37d41e306c96d6488a64ec0587e283a, type: 3}
+  pit_fuel: {fileID: 8653190612220932442, guid: 578652b004b2a4440b26eaa4b954efa3, type: 3}
+  ground_fuel: {fileID: 6476199732091025088, guid: d211b9a5f4037324c95d7c87811f54d9, type: 3}
+  obstacle_fuel: {fileID: 1658803989062484501, guid: 8955d9572a1f333468330653cce1fe59, type: 3}
+  stairs_fuel: {fileID: 6332064908483682720, guid: c095ab50507fc3b4f81560b3523a17f8, type: 3}
+  pit_money: {fileID: 8653190612220932442, guid: 6dc8c321ba9bdae4181ac34f0be39f68, type: 3}
+  ground_money: {fileID: 6476199732091025088, guid: 5548862706ecbd643a7786ee2d08a31f, type: 3}
+  obstacle_money: {fileID: 1658803989062484501, guid: db10bd8aae43ec34ea281fc040c63da1, type: 3}
+  stairs_money: {fileID: 6332064908483682720, guid: 711c37f5687e7a248976e731adafb595, type: 3}
   player: {fileID: 1656615044}
   segmentWidth: 8.5
   spawnDistance: 30
