@@ -29,7 +29,7 @@ public class BuildingSpawn : MonoBehaviour
         if (!startRandom && player.transform.position.x >= targetPosX)
         {
             startRandom = true;
-            nextSpawnX = player.transform.position.x;
+            nextSpawnX = player.transform.position.x + 10f;
         }
 
         if (startRandom && player.transform.position.x + spawnDistance > nextSpawnX)

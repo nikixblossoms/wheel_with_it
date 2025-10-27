@@ -45,10 +45,10 @@ public class PlayerMovement : MonoBehaviour
         move = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
 
-        // if (mm.moneyCount < 0)
-        // {
-        //     jump = 0;
-        // }
+        if (mm.moneyCount < 0)
+        {
+            jump = 0;
+        }
 
         anim.SetBool("isRunning", Mathf.Abs(move) > 0.1f);
 
@@ -85,7 +85,7 @@ public class PlayerMovement : MonoBehaviour
         {
             mm.moneyCount += 10;
             Destroy(other.gameObject);
-            StartCoroutine(ShowMoneyPopup("+$10"));
+            StartCoroutine(ShowMoneyPopup("+10"));
         }
 
         if (other.gameObject.CompareTag("Collectable"))

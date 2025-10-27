@@ -36,7 +36,7 @@ public class ObstacleManager : MonoBehaviour
         if (!startRandom && player.transform.position.x >= targetPosX)
         {
             startRandom = true;
-            nextSpawnX = player.transform.position.x + 5f;
+            nextSpawnX = player.transform.position.x + 10f;
         }
 
         if (startRandom && player.transform.position.x + spawnDistance > nextSpawnX) {

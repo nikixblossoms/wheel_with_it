@@ -27,7 +27,7 @@ public class MoneyManager : MonoBehaviour
 
     void Update()
     {
-        moneyText.text = ": $ " + moneyCount.ToString();
+        moneyText.text = ": " + moneyCount.ToString();
 
         if (moneyCount >= 0)
         {
@@ -36,7 +36,7 @@ public class MoneyManager : MonoBehaviour
         else
         {
             moneyText.color = redColor;
-            moneyText.text = ": $ " + moneyCount.ToString() + " (IN DEBT!)";
+            moneyText.text = ": " + moneyCount.ToString() + " (LOW ENERGY!)";
         }
     }
 
@@ -58,7 +58,7 @@ public class MoneyManager : MonoBehaviour
         {
             yield return new WaitForSeconds(2f);
             moneyCount -= 5;
-            StartCoroutine(ShowMoneyLossPopup("-$5"));
+            StartCoroutine(ShowMoneyLossPopup("-5"));
         }
     }
 
